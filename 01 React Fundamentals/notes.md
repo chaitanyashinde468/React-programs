@@ -75,20 +75,23 @@ React creates a virtual copy of DOM.
 
 Only changed elements are updated.
 
+---
 Problem
-
+---
 Updating Real DOM is expensive.
 
+---
 React Solution
-
-React creates:
+---
+React creates :
 
 Virtual DOM
 
 in memory.
 
+---
 When state changes:
-
+---
 Old Virtual DOM
       ↓
 New Virtual DOM
@@ -99,7 +102,10 @@ Update only changed nodes
 
 This process is called:
 
+---
 Reconciliation
+---
+
 ---
 
 ## Reconciliation
