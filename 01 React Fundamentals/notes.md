@@ -32,18 +32,6 @@ JSX stands for JavaScript XML.
 
 Allows writing HTML-like syntax inside JavaScript.
 
-Example:
-
-const element = <h1>Hello Chaitanya</h1>;
-
-Without JSX:
-
-const element = React.createElement(
-    "h1",
-    null,
-    "Hello Chaitanya"
-);
-
 ---
 
 ## Why JSX?
@@ -87,6 +75,31 @@ React creates a virtual copy of DOM.
 
 Only changed elements are updated.
 
+Problem
+
+Updating Real DOM is expensive.
+
+React Solution
+
+React creates:
+
+Virtual DOM
+
+in memory.
+
+When state changes:
+
+Old Virtual DOM
+      ↓
+New Virtual DOM
+      ↓
+Diffing
+      ↓
+Update only changed nodes
+
+This process is called:
+
+Reconciliation
 ---
 
 ## Reconciliation
