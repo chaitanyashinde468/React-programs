@@ -77,3 +77,67 @@ Process of comparing old Virtual DOM and new Virtual DOM.
 - Better Performance
 - One-Way Data Flow
 - Large Ecosystem
+
+# React Fundamentals Questions
+
+## Q1 What is React?
+
+React is a JavaScript library for building user interfaces.
+
+---
+
+## Q2 Is React a Framework?
+
+No.
+
+React is a Library.
+
+---
+
+## Q3 What is JSX?
+
+JavaScript XML.
+
+HTML-like syntax inside JavaScript.
+
+---
+
+## Q4 Why use JSX?
+
+Improves readability and developer experience.
+
+---
+
+## Q5 What is Virtual DOM?
+
+A lightweight copy of Real DOM maintained by React.
+
+---
+
+## Q6 What is Reconciliation?
+
+Process of comparing old and new Virtual DOM.
+
+---
+
+## Q7 Why is React Fast?
+
+React updates only changed DOM elements.
+
+---
+
+## Q8 What is Component-Based Architecture?
+
+Building UI using reusable independent components.
+
+---
+
+## Q9 What is One-Way Data Flow?
+
+Data flows from Parent to Child.
+
+---
+
+## Q10 Who Developed React?
+
+Facebook (Meta).
