@@ -85,13 +85,10 @@ React Solution
 ---
 React creates :
 
-Virtual DOM
+Virtual DOM in memory.
 
-in memory.
-
----
 When state changes:
----
+
 Old Virtual DOM
       ↓
 New Virtual DOM
@@ -100,10 +97,8 @@ Diffing
       ↓
 Update only changed nodes
 
-This process is called:
+This process is called : Reconciliation
 
----
-Reconciliation
 ---
 
 ---
