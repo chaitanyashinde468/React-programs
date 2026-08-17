@@ -12,6 +12,18 @@ Developed by Facebook.
 
 React is a Library.
 
+Reason:
+
+React focuses only on UI.
+
+Frameworks provide:
+
+Routing
+State Management
+Structure
+
+React needs additional libraries for those.
+
 ---
 
 ## JSX
@@ -20,13 +32,25 @@ JSX stands for JavaScript XML.
 
 Allows writing HTML-like syntax inside JavaScript.
 
+Example:
+
+const element = <h1>Hello Chaitanya</h1>;
+
+Without JSX:
+
+const element = React.createElement(
+    "h1",
+    null,
+    "Hello Chaitanya"
+);
+
 ---
 
 ## Why JSX?
 
-- Readable
-- Maintainable
-- Easy to write
+- Easier to read
+- Easier to write
+- Easier to maintain
 
 ---
 
