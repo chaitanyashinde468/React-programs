@@ -12,11 +12,11 @@ Developed by Facebook.
 
 React is a Library.
 
-Reason:
+Reason :
 
 React focuses only on UI.
 
-Frameworks provide:
+Frameworks provide :
 
 Routing
 State Management
