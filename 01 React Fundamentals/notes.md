@@ -18,8 +18,8 @@ React focuses only on UI.
 
 Frameworks provide :
 
-Routing
-State Management
+Routing,
+State Management,
 Structure
 
 React needs additional libraries for those.
