@@ -16,3 +16,7 @@ function App() {
 }
 
 export default App;
+
+//Output
+Welcome Chaitanya
+Learning React Fundamentals
