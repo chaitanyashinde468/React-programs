@@ -87,7 +87,7 @@ React creates :
 
 Virtual DOM in memory.
 
-When state changes:
+When state changes :
 
 Old Virtual DOM
       ↓
@@ -98,8 +98,6 @@ Diffing
 Update only changed nodes
 
 This process is called : Reconciliation
-
----
 
 ---
 
